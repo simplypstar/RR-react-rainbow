@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import ColorBlock from './ColorBlock'
 import ColorForm from './ColorForm'
+import validateColor from 'validate-color'
+
 
 function App(){
     let [colors, setColors] = useState([
@@ -14,10 +16,12 @@ function App(){
       return (
           <ColorBlock color={color} />
       )
-  })
+    })
 
   const addColor = (newColor) => {
-    setColors([...colors, newColor]) 
+  const myColor = validateColor(newColor) ? newColor : "invalid color"
+
+    setColors([...colors, myColor]) 
   }
         return (
         <div className="App">

@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Installed the validate-color npm package
+
+This resource was found at: https://www.npmjs.com/package/validate-color
+Install command: npm i validate-color --save
+Imported validate-color in the Apps.js file
+The phrase 'invalid color' is entered if an unsupported color is entered in the input box
