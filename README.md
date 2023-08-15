@@ -76,3 +76,7 @@ This resource was found at: https://www.npmjs.com/package/validate-color
 Install command: npm i validate-color --save
 Imported validate-color in the Apps.js file
 The phrase 'invalid color' is entered if an unsupported color is entered in the input box
+
+### Added CSS formatting to index.css
+ Changed the body text to bold, italic
+ Added 5px left margin
